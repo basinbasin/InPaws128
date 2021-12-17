@@ -1,5 +1,5 @@
 # InPaws128
-A fork of the original 80's Gilsoft PAW compiler for PC, with additional features.
+A fork of [Mastadon's](https://github.com/Mastodon-/inpaws) original 80's Gilsoft PAW compiler for PC, with additional features.
 
 Additional functionality:
 
