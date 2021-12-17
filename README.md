@@ -8,7 +8,7 @@ This should allow conversions from The Quill for example, to run in the 128K ver
 
 Example command:
 
-inpaws128 c "C:\output_pawmac.paw" -o "C:\output_paw.tap" -z 35 
+*inpaws128 c "C:\output_pawmac.paw" -o "C:\output_paw.tap" -z 35*
 
 will create a tap file with 35% of the location and message text moved to ram page 1.
 
@@ -17,7 +17,7 @@ will create a tap file with 35% of the location and message text moved to ram pa
 
 Example command:
 
-inpaws128 cf "C:\test.paw" -o "C:\test.dsf"
+*inpaws128 cf "C:\test.paw" -o "C:\test.dsf"*
 
 
 3) Change to output filename
