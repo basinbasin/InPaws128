@@ -1,4 +1,4 @@
-# inpaws
+# InPaws128
 A fork of the original 80's Gilsoft PAW compiler for PC, with additional features.
 
 Additional functionality:
@@ -23,3 +23,7 @@ inpaws128 cf "C:\test.paw" -o "C:\test.dsf"
 3) Change to output filename
 The filenames output into the final tap file has been changed to be the filename before the filename suffix, rather than the file path, mainly because it was easier to
 type this into a Spectrum emulator than having to type c:\my_location and having to go into extended mode etc. on the Speccy keyboard
+
+The original version of InPaws is written in c++ and Spanish. I am unfamiliar with either language, so my changes are almost certainly going to be badly-written hacks. 
+
+I'm making the source available because people are, quite rightly, wary of downloading unsigned exe files, so those of you with the ability can compile your own version.
