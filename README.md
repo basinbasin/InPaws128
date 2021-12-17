@@ -22,7 +22,7 @@ Example command:
 
 3) Change to output filename
 The filename(s) output into the final tap file has been changed to be *just* the filename before the filename suffix, rather than the file path, mainly because it was easier to
-type this into a Spectrum emulator than having to type c:\my_location and having to go into extended mode etc. on the Speccy keyboard.
+type this into a Spectrum emulator than having to type, for example, c:\my_location and needing to go into extended mode etc. on the Speccy keyboard.
 
 Example:
 
