@@ -21,8 +21,14 @@ Example command:
 
 
 3) Change to output filename
-The filenames output into the final tap file has been changed to be the filename before the filename suffix, rather than the file path, mainly because it was easier to
-type this into a Spectrum emulator than having to type c:\my_location and having to go into extended mode etc. on the Speccy keyboard
+The filename(s) output into the final tap file has been changed to be the filename before the filename suffix, rather than the file path, mainly because it was easier to
+type this into a Spectrum emulator than having to type c:\my_location and having to go into extended mode etc. on the Speccy keyboard.
+
+Example:
+
+*c:\my_adventure\myoutputa.tap* will appear in the final tap file (what you'll need to enter as a filename to load into PAW) as
+*c:\my_adv in InPaws*
+*myoutputa in InPaws128*
 
 The original version of InPaws is written in c++ and Spanish. I am unfamiliar with either language, so my changes are almost certainly going to be badly-written hacks. 
 
