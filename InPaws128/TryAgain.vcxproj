@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FE2E28DF-F1A6-438D-A0A0-CE11B3266A49}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TryAgain</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>InPaws128</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Abreviaturas.h" />
+    <ClInclude Include="include\Aventura.h" />
+    <ClInclude Include="include\Caracteres.h" />
+    <ClInclude Include="include\Condacto.h" />
+    <ClInclude Include="include\Conexiones.h" />
+    <ClInclude Include="include\Defaults.h" />
+    <ClInclude Include="include\defines.h" />
+    <ClInclude Include="include\EntradaProcesos.h" />
+    <ClInclude Include="include\Excepcion.h" />
+    <ClInclude Include="include\Fichero.h" />
+    <ClInclude Include="include\Graficos.h" />
+    <ClInclude Include="include\ListaEntradasVolcadas.h" />
+    <ClInclude Include="include\ListaProcesos.h" />
+    <ClInclude Include="include\ListaSimple.h" />
+    <ClInclude Include="include\ListaSimpleImpl.h" />
+    <ClInclude Include="include\MsgAplicacion.h" />
+    <ClInclude Include="include\PawCondacts.h" />
+    <ClInclude Include="include\PawPart.h" />
+    <ClInclude Include="include\prep\Diccionario.h" />
+    <ClInclude Include="include\prep\Error.h" />
+    <ClInclude Include="include\prep\MsgPrep.h" />
+    <ClInclude Include="include\prep\Pool.h" />
+    <ClInclude Include="include\prep\PrepAbreviable.h" />
+    <ClInclude Include="include\prep\PrepAbreviaturas.h" />
+    <ClInclude Include="include\prep\PrepConstantes.h" />
+    <ClInclude Include="include\prep\PrepDefaults.h" />
+    <ClInclude Include="include\prep\PrepEntradaMultiple.h" />
+    <ClInclude Include="include\prep\PrepFlags.h" />
+    <ClInclude Include="include\prep\PrepListaDatos.h" />
+    <ClInclude Include="include\prep\PrepListaMensajes.h" />
+    <ClInclude Include="include\prep\PrepLocalidades.h" />
+    <ClInclude Include="include\prep\PrepObjetos.h" />
+    <ClInclude Include="include\prep\PrepPart.h" />
+    <ClInclude Include="include\prep\PrepProcesos.h" />
+    <ClInclude Include="include\prep\Preprocesador.h" />
+    <ClInclude Include="include\prep\PrepSubChar.h" />
+    <ClInclude Include="include\prep\PrepTokeniser.h" />
+    <ClInclude Include="include\prep\PrepUtilTexto.h" />
+    <ClInclude Include="include\prep\PrepVocabulario.h" />
+    <ClInclude Include="include\Proceso.h" />
+    <ClInclude Include="include\SpBuffer.h" />
+    <ClInclude Include="include\Textos.h" />
+    <ClInclude Include="include\Tokeniser.h" />
+    <ClInclude Include="include\UtilTexto.h" />
+    <ClInclude Include="include\version.h" />
+    <ClInclude Include="include\Vocabulario.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Abreviaturas.cpp" />
+    <ClCompile Include="Aventura.cpp" />
+    <ClCompile Include="Caracteres.cpp" />
+    <ClCompile Include="Condacto.cpp" />
+    <ClCompile Include="Conexiones.cpp" />
+    <ClCompile Include="Defaults.cpp" />
+    <ClCompile Include="EntradaProcesos.cpp" />
+    <ClCompile Include="Excepcion.cpp" />
+    <ClCompile Include="Fichero.cpp" />
+    <ClCompile Include="Graficos.cpp" />
+    <ClCompile Include="ListaEntradasVolcadas.cpp" />
+    <ClCompile Include="ListaProcesos.cpp" />
+    <ClCompile Include="ListaSimple.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PawCondacts.cpp" />
+    <ClCompile Include="PawPart.cpp" />
+    <ClCompile Include="prep\Diccionario.cpp" />
+    <ClCompile Include="prep\Error.cpp" />
+    <ClCompile Include="prep\Pool.cpp" />
+    <ClCompile Include="prep\PrepAbreviable.cpp" />
+    <ClCompile Include="prep\PrepAbreviaturas.cpp" />
+    <ClCompile Include="prep\PrepConstantes.cpp" />
+    <ClCompile Include="prep\PrepDefaults.cpp" />
+    <ClCompile Include="prep\PrepEntradaMultiple.cpp" />
+    <ClCompile Include="prep\PrepFlags.cpp" />
+    <ClCompile Include="prep\PrepListaDatos.cpp" />
+    <ClCompile Include="prep\PrepListaMensajes.cpp" />
+    <ClCompile Include="prep\PrepLocalidades.cpp" />
+    <ClCompile Include="prep\PrepObjetos.cpp" />
+    <ClCompile Include="prep\PrepPart.cpp" />
+    <ClCompile Include="prep\PrepProcesos.cpp" />
+    <ClCompile Include="prep\Preprocesador.cpp" />
+    <ClCompile Include="prep\PrepSubChar.cpp" />
+    <ClCompile Include="prep\PrepTokeniser.cpp" />
+    <ClCompile Include="prep\PrepUtilTexto.cpp" />
+    <ClCompile Include="prep\PrepVocabulario.cpp" />
+    <ClCompile Include="Proceso.cpp" />
+    <ClCompile Include="SpBuffer.cpp" />
+    <ClCompile Include="Textos.cpp" />
+    <ClCompile Include="Tokeniser.cpp" />
+    <ClCompile Include="UtilTexto.cpp" />
+    <ClCompile Include="Vocabulario.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\img\ico\noun_Paw_1087602.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
