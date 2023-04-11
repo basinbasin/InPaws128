@@ -183,7 +183,7 @@ PawCondacts::_anadirCondactos()
     anadirCondacto(86, "PROMPT", 1, SYSNO, 255);
     anadirCondacto(87, "GRAPHIC", 1, VALOR, 3);
     anadirCondacto(88, "ISNOTAT", 2, OBJNO, 255, LOCNO_PLUS, 255);
-    anadirCondacto(89, "WEIGH", 2, FLAGNO, 255, OBJNO, 255);
+    anadirCondacto(89, "WEIGH", 2, OBJNO, 255, FLAGNO, 255 );
     anadirCondacto(90, "PUTIN", 2, OBJNO, 255, LOCNO, 251);
     anadirCondacto(91, "TAKEOUT", 2, OBJNO, 255, LOCNO, 251);
     anadirCondacto(92, "NEWTEXT", 0);

@@ -34,7 +34,7 @@
 #define INPAWS_BUILD "170227"
 #define INPAWS_COPYRIGHT "Copyright (c) 2009-2016 Francisco Javier Lopez"
 
-#define INPAWS_VERSION_128 "1.0.4.10"
+#define INPAWS_VERSION_128 "1.0.4.11"
 
 using namespace std;
 using namespace Inpaws;
@@ -211,7 +211,7 @@ void leerParametros(int argc, char** argv)
 void sintaxis()
 {
     cerr << MSG_SINTAXIS << endl;
-	cerr << "InPAWS128 v" << INPAWS_VERSION_128 << ". Based on: "  << endl;
+	cerr << "InPAWS128 v" << INPAWS_VERSION_128 << ". Build date: 11 Apr 2023. Based on: "  << endl;
     cerr << "InPAWS " << INPAWS_VERSION << " Build " << INPAWS_BUILD << endl;
     cerr << INPAWS_COPYRIGHT << endl;	
 }
