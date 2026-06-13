@@ -26,8 +26,8 @@
 #include <set>
 #include "../Aventura.h"
 #include "Diccionario.h"
-#include "../prep/PrepTokeniser.h"
-#include "../prep/Pool.h"
+#include "PrepTokeniser.h"
+#include "Pool.h"
 
 namespace Inpaws
 {

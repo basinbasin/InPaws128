@@ -19,11 +19,11 @@
  *
  */
 
-#include "C:\Users\jasem\source\repos\InPaws128\InPaws128\include/prep/PrepFlags.h"
-#include "C:\Users\jasem\source\repos\InPaws128\InPaws128\include/prep/MsgPrep.h"
-#include "C:\Users\jasem\source\repos\InPaws128\InPaws128\include/prep/Error.h"
-#include "C:\Users\jasem\source\repos\InPaws128\InPaws128\include/MsgAplicacion.h"
-#include "C:\Users\jasem\source\repos\InPaws128\InPaws128\include/defines.h"
+#include "../include/prep/PrepFlags.h"
+#include "../include/prep/MsgPrep.h"
+#include "../include/prep/Error.h"
+#include "../include/MsgAplicacion.h"
+#include "../include/defines.h"
 #include <sstream>
 
 using namespace Inpaws;

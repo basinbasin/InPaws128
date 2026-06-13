@@ -22,11 +22,11 @@
 #ifndef PREPPROCESOS_H_
 #define PREPPROCESOS_H_
 
-#include "../prep\PrepPart.h"
-#include "C:\Users\jasem\source\repos\InPaws128\InPaws128\include/prep/PrepListaMensajes.h"
-#include "C:\Users\jasem\source\repos\InPaws128\InPaws128\include/prep/PrepVocabulario.h"
-#include "C:\Users\jasem\source\repos\InPaws128\InPaws128\include/prep/PrepEntradaMultiple.h"
-#include "C:\Users\jasem\source\repos\InPaws128\InPaws128\include/Condacto.h"
+#include "../prep/PrepPart.h"
+#include "PrepListaMensajes.h"
+#include "PrepVocabulario.h"
+#include "PrepEntradaMultiple.h"
+#include "../Condacto.h"
 #include <vector>
 #include <map>
 

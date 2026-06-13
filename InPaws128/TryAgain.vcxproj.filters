@@ -286,7 +286,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\img\ico\noun_Paw_1087602.ico">
+    <Image Include="..\img\ico\InPaw128k.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

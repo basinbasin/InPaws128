@@ -20,10 +20,10 @@
  */
 
 //-----------------------------------------------------------
-// Un sencillo analizador léxico que interpreta los siguientes
+// Un sencillo analizador l?xico que interpreta los siguientes
 // tokens:
 // - Identificador: nombres de variables, palabras reservadas,...
-// - Numero: un número decimal entero
+// - Numero: un n?mero decimal entero
 // - Literal: cualquier cosa encerrada entre comillas
 // - Control: caracteres individuales para el control de
 //            flujo de programa ("{", "}", ";")
@@ -43,7 +43,9 @@ namespace Inpaws
         public:
             enum TTokenType {TK_NULL, TK_ERROR, TK_IDENTIFICADOR,
                              TK_NUMERO, TK_LITERAL,TK_CONTROL,
-                             TK_NUMEROGRANDE, TK_NUMEROVOCABULARIO};
+                             TK_NUMEROGRANDE, TK_NUMEROVOCABULARIO,
+                             TK_ID_LETRANUMERO_VOCABULARIO
+                            };
             struct Tlvalue
             {
                 SpByte valor;

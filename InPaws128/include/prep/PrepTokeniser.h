@@ -22,7 +22,7 @@
 #ifndef PREPTOKENISER_H_
 #define PREPTOKENISER_H_
 
-#include "C:\Users\jasem\source\repos\InPaws128\InPaws128\include/Tokeniser.h"
+#include "../Tokeniser.h"
 #include <list>
 #include <fstream>
 #include <set>
